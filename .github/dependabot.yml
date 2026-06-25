@@ -1,0 +1,19 @@
+# Dependabot keeps Go module and GitHub Actions dependencies current so security
+# fixes show up as PRs. This library has no module dependencies today; the gomod
+# entry is here so any future ones are tracked from the start.
+version: 2
+updates:
+  - package-ecosystem: gomod
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "deps"
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "ci"
