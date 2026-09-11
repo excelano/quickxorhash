@@ -8,7 +8,7 @@ Please do not open public issues for security problems.
 
 ## Supported versions
 
-The latest v1.x release receives any needed fixes. Older versions are not supported.
+The latest release receives any needed fixes. Older versions are not supported.
 
 ## Scope
 
