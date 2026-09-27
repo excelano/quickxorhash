@@ -51,4 +51,4 @@ QuickXorHash is a 160-bit hash that XORs the input into a rotating bit accumulat
 
 ## License
 
-MIT. Built by David M. Anderson.
+MIT.
